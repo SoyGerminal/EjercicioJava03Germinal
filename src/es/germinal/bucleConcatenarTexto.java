@@ -1,0 +1,19 @@
+package es.germinal;
+
+public class bucleConcatenarTexto {
+    public static void main(String[] args) {
+        /**
+         * En este ejercicio tenéis que crear un bucle que permita concatenar textos e imprima el resultado
+         * final por consola.
+         * Tened en cuenta que los textos pueden venir de un array de tipo String. Por ejemplo:
+         * String[] nombres = {"", "", "", ""}
+         */
+        String[] names = {"Germinal", "Gonzalo", "Antonia", "Rosalinda"};
+        String text = "";
+        for(int i = 0; i < names.length; i++) {
+            text += names[i] + " ";
+            }
+        System.out.println("Los nombres del array son: " + text);
+        }
+
+    }
